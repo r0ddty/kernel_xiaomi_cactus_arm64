@@ -43,7 +43,7 @@ class KpdObj(ModuleObj):
 
         cp.read(ModuleObj.get_figPath())
         if cp.has_option('KEYPAD_EXTEND_TYPE', 'KEY_ROW'):
-            KpdData.set_row_ext(int(cp.get('KEYPAD_EXTEND_TYPE', 'KEY_ROW'))))
+            KpdData.set_row_ext(int(cp.get('KEYPAD_EXTEND_TYPE', 'KEY_ROW')))
         if cp.has_option('KEYPAD_EXTEND_TYPE', 'KEY_COLUMN'):
             KpdData.set_col_ext(int(cp.get('KEYPAD_EXTEND_TYPE', 'KEY_COLUMN')))
 

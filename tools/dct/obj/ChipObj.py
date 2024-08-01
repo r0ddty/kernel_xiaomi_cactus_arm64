@@ -30,7 +30,7 @@ from . ClkObj import ClkObj
 from . ClkObj import ClkObj_Everest
 from . ClkObj import ClkObj_Olympus
 from . ClkObj import ClkObj_Rushmore
-from . ClkObj import ClkObj_MT6779
+#from . ClkObj import ClkObj_MT6779
 from . I2cObj import I2cObj
 from . I2cObj import I2cObj_MT6759
 from . I2cObj import I2cObj_MT6775

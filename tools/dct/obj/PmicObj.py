@@ -17,7 +17,7 @@ import re
 import configparser
 import xml.dom.minidom
 
-from . ModuleObj import ModuleOb
+from . ModuleObj import ModuleObj
 from data.PmicData import PmicData
 
 from utility.util import log
